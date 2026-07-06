@@ -13,7 +13,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/studyhub-student-dashboard">
       <Routes>
 
         {/* Dashboard */}
@@ -36,7 +36,7 @@ function App() {
           }
         />
 
-        {/* Individual Student Profile */}
+        {/* Student Profile */}
         <Route
           path="/student/:id"
           element={
