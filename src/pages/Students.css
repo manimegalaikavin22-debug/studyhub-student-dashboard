@@ -1,0 +1,273 @@
+/* ===========================
+   Students Page
+=========================== */
+
+.students-page{
+    width:100%;
+    min-height:100vh;
+    padding:30px;
+    background:#f4f7fb;
+    box-sizing:border-box;
+}
+
+/* ===========================
+   Header
+=========================== */
+
+.students-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:35px;
+    padding:25px 30px;
+    background:#fff;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+/* ===========================
+   Directory Title
+=========================== */
+
+.directory-title{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.title-icon{
+    width:65px;
+    height:65px;
+    border-radius:18px;
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    box-shadow:0 8px 20px rgba(37,99,235,.25);
+}
+
+.title-text h1{
+    margin:0;
+    font-size:34px;
+    font-weight:800;
+    color:#1f2937;
+    letter-spacing:-0.5px;
+}
+
+.title-text p{
+    margin-top:6px;
+    color:#6b7280;
+    font-size:15px;
+}
+
+/* ===========================
+   Search
+=========================== */
+
+.student-search{
+    width:320px;
+    height:48px;
+    padding:0 18px;
+    border:1px solid #d1d5db;
+    border-radius:12px;
+    outline:none;
+    font-size:15px;
+    transition:.3s;
+}
+
+.student-search:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 0 4px rgba(37,99,235,.15);
+}
+
+/* ===========================
+   Student Grid
+=========================== */
+
+.student-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+    gap:25px;
+}
+
+/* ===========================
+   Student Card
+=========================== */
+
+.student-card{
+    background:#fff;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.student-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(37,99,235,.15);
+}
+
+/* ===========================
+   Image
+=========================== */
+
+.student-image{
+    width:95px;
+    height:95px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #2563eb;
+    margin-bottom:18px;
+}
+
+/* ===========================
+   Name
+=========================== */
+
+.student-name{
+    margin:0;
+    font-size:24px;
+    font-weight:700;
+    color:#1f2937;
+}
+
+/* Roll */
+
+.student-roll{
+    margin-top:6px;
+    color:#6b7280;
+    font-size:15px;
+}
+
+/* Department */
+
+.student-dept{
+    margin:12px 0;
+    color:#374151;
+    font-size:17px;
+}
+
+/* Email */
+
+.student-email{
+    margin:18px 0;
+    color:#6b7280;
+    font-size:15px;
+    word-break:break-word;
+}
+
+/* ===========================
+   Status
+=========================== */
+
+.status{
+    display:inline-block;
+    margin-top:12px;
+    padding:8px 24px;
+    border-radius:25px;
+    color:#fff;
+    font-weight:700;
+    font-size:14px;
+}
+
+.active{
+    background:#22c55e;
+}
+
+.graduated{
+    background:#2563eb;
+}
+
+.leave{
+    background:#f59e0b;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+.view-btn{
+    display:block;
+    margin-top:20px;
+    padding:12px;
+    border-radius:12px;
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    color:#fff;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.view-btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 18px rgba(37,99,235,.3);
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:900px){
+
+    .students-header{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:20px;
+    }
+
+    .student-search{
+        width:100%;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .students-page{
+        padding:15px;
+    }
+
+    .students-header{
+        padding:20px;
+    }
+
+    .directory-title{
+        gap:12px;
+    }
+
+    .title-icon{
+        width:55px;
+        height:55px;
+        font-size:24px;
+    }
+
+    .title-text h1{
+        font-size:28px;
+    }
+
+    .title-text p{
+        font-size:14px;
+    }
+
+    .student-grid{
+        grid-template-columns:1fr;
+    }
+
+    .student-card{
+        padding:20px;
+    }
+
+    .student-name{
+        font-size:22px;
+    }
+
+    .student-image{
+        width:85px;
+        height:85px;
+    }
+
+}

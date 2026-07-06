@@ -1,0 +1,227 @@
+/* ==========================
+   PAGE
+========================== */
+
+.profile-page{
+    width:100%;
+    min-height:100vh;
+    background:#f4f7fb;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+/* ==========================
+   BANNER
+========================== */
+
+.profile-banner{
+    width:100%;
+    height:190px;
+    border-radius:22px;
+    background:linear-gradient(135deg,#2563eb,#1e40af,#3b82f6);
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+.profile-header{
+    display:flex;
+    align-items:flex-end;
+    gap:35px;
+    margin-top:-90px;
+    padding:0 45px;
+    margin-bottom:35px;
+}
+
+.profile-image{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #fff;
+    background:#fff;
+    box-shadow:0 12px 28px rgba(0,0,0,.20);
+}
+
+.profile-info{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    padding-bottom:18px;
+}
+
+.profile-info h1{
+    margin:0;
+    font-size:42px;
+    font-weight:800;
+    color:#111827;
+    letter-spacing:-1px;
+}
+
+.profile-info p{
+    margin:10px 0 18px;
+    font-size:18px;
+    color:#6b7280;
+    font-weight:500;
+}
+
+.status{
+    display:inline-block;
+    width:max-content;
+    background:#22c55e;
+    color:#fff;
+    padding:8px 22px;
+    border-radius:30px;
+    font-weight:700;
+    font-size:15px;
+    box-shadow:0 4px 12px rgba(34,197,94,.35);
+}
+
+/* ==========================
+   GRID
+========================== */
+
+.profile-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+/* ==========================
+   CARDS
+========================== */
+
+.profile-card{
+    background:#fff;
+    border-radius:20px;
+    padding:22px;
+    min-height:190px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.profile-card:hover{
+    transform:translateY(-5px);
+}
+
+.profile-card h2{
+    margin:0 0 18px;
+    padding-bottom:10px;
+    text-align:center;
+    font-size:26px;
+    color:#2563eb;
+    border-bottom:2px solid #edf2f7;
+}
+
+.profile-card p{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin:11px 0;
+    color:#374151;
+    font-size:16px;
+}
+
+.profile-card svg{
+    color:#2563eb;
+    font-size:18px;
+    min-width:20px;
+}
+
+/* ==========================
+   SKILLS
+========================== */
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:10px;
+}
+
+.skills span{
+    background:#2563eb;
+    color:#fff;
+    padding:8px 16px;
+    border-radius:25px;
+    font-size:14px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.skills span:hover{
+    background:#1d4ed8;
+    transform:scale(1.05);
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:900px){
+
+    .profile-grid{
+        grid-template-columns:1fr;
+    }
+
+    .profile-header{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        margin-top:-70px;
+        padding:0;
+    }
+
+    .profile-info{
+        padding-bottom:0;
+    }
+
+    .profile-info h1{
+        font-size:34px;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .profile-page{
+        padding:12px;
+    }
+
+    .profile-banner{
+        height:140px;
+    }
+
+    .profile-image{
+        width:130px;
+        height:130px;
+    }
+
+    .profile-info h1{
+        font-size:28px;
+    }
+
+    .profile-info p{
+        font-size:15px;
+    }
+
+    .profile-card{
+        padding:18px;
+        min-height:auto;
+    }
+
+    .profile-card h2{
+        font-size:22px;
+    }
+
+    .profile-card p{
+        font-size:15px;
+    }
+
+    .skills span{
+        padding:7px 14px;
+        font-size:13px;
+    }
+
+}

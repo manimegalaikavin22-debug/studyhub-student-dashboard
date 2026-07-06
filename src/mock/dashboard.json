@@ -1,0 +1,18 @@
+{
+  "welcome": "Welcome back, Manimegalai 👋",
+  "totalStudents": 15,
+  "totalCourses": 8,
+  "attendance": "94%",
+  "notifications": 12,
+
+  "activities": [
+    "AI Assignment Uploaded",
+    "Java Lab Marks Published",
+    "Hackathon Registration Open",
+    "Semester Fee Reminder",
+    "Placement Training Started",
+    "Library Books Due Tomorrow",
+    "Attendance Updated",
+    "Cloud Computing Quiz Scheduled"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Anu",
+  "rollNo": "CSE-22045",
+  "department": "Computer Science & Engineering",
+  "status": "Active",
+  "email": "anu@ksrce.ac.in",
+  "phone": "+91 9876543210",
+  "address": "Namakkal, Tamil Nadu",
+  "dob": "22-08-2007",
+  "gpa": "8.91",
+  "semester": "5th",
+  "year": "3rd Year",
+  "skills": [
+    "React",
+    "Python",
+    "Java",
+    "Node.js",
+    "SQL",
+    "UI Design"
+  ],
+  "image": "https://i.pravatar.cc/250?img=5"
+}

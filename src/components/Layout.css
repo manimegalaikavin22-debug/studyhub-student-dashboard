@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* ===========================
+   Layout
+=========================== */
+
+.layout{
+    display:flex;
+    min-height:100vh;
+    background:#f5f8ff;
+}
+
+/* ===========================
+   Sidebar
+=========================== */
+
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:280px;
+    height:100vh;
+    padding:25px 18px;
+    background:linear-gradient(180deg,#1e3a8a,#2563eb);
+    color:#fff;
+    box-shadow:8px 0 25px rgba(0,0,0,.12);
+    overflow-y:auto;
+}
+
+/* ===========================
+   Logo
+=========================== */
+
+.sidebar-logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:35px;
+    padding-bottom:22px;
+    border-bottom:1px solid rgba(255,255,255,.15);
+}
+
+.logo-icon{
+    width:60px;
+    height:60px;
+    border-radius:18px;
+    background:linear-gradient(135deg,#60a5fa,#2563eb);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:30px;
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+}
+
+.logo-text h2{
+    margin:0;
+    color:#fff;
+    font-size:24px;
+    font-weight:800;
+}
+
+.logo-text p{
+    margin-top:4px;
+    font-size:13px;
+    color:rgba(255,255,255,.75);
+}
+
+/* ===========================
+   Navigation
+=========================== */
+
+.sidebar nav{
+    display:flex;
+    flex-direction:column;
+}
+
+.sidebar nav a{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:15px 18px;
+    margin-bottom:12px;
+    text-decoration:none;
+    color:#eaf2ff;
+    border-radius:15px;
+    font-size:17px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.sidebar nav a svg{
+    font-size:20px;
+    min-width:22px;
+}
+
+.sidebar nav a:hover{
+    background:rgba(255,255,255,.15);
+    transform:translateX(6px);
+}
+
+.sidebar nav a.active{
+    background:#fff;
+    color:#2563eb;
+    font-weight:700;
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+/* ===========================
+   Content
+=========================== */
+
+.content{
+    flex:1;
+    margin-left:280px;
+    min-height:100vh;
+    padding:30px;
+    background:#f5f8ff;
+}
+
+/* ===========================
+   Scrollbar
+=========================== */
+
+.sidebar::-webkit-scrollbar{
+    width:6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb{
+    background:rgba(255,255,255,.25);
+    border-radius:10px;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:768px){
+
+    .sidebar{
+        width:240px;
+    }
+
+    .content{
+        margin-left:240px;
+    }
+
+    .logo-icon{
+        width:52px;
+        height:52px;
+        font-size:24px;
+    }
+
+    .logo-text h2{
+        font-size:20px;
+    }
+
+    .sidebar nav a{
+        font-size:16px;
+        padding:13px 15px;
+    }
+}

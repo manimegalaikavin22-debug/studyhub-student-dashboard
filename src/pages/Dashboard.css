@@ -1,0 +1,146 @@
+.dashboard{
+    width:100%;
+}
+
+/* ================= Title ================= */
+
+.dashboard-title{
+    font-size:38px;
+    font-weight:700;
+    color:#1e293b;
+    margin-bottom:25px;
+    text-align:center;
+}
+
+/* ================= Top Cards ================= */
+
+.dashboard-cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+    margin-bottom:22px;
+}
+
+.dashboard-card{
+    background:#fff;
+    border-radius:16px;
+    padding:22px;
+    text-align:center;
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-5px);
+}
+
+.dashboard-card svg{
+    font-size:42px;
+    color:#2563eb;
+    margin-bottom:12px;
+}
+
+.dashboard-card h2{
+    font-size:32px;
+    margin-bottom:5px;
+    color:#111827;
+}
+
+.dashboard-card p{
+    font-size:16px;
+    color:#64748b;
+}
+
+/* ================= Bottom ================= */
+
+.dashboard-bottom{
+    display:grid;
+    grid-template-columns:2.3fr 1fr;
+    gap:18px;
+}
+
+/* ================= Recent Activities ================= */
+
+.activity-box{
+    background:#fff;
+    border-radius:16px;
+    padding:18px 22px;
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+}
+
+.activity-box h2{
+    text-align:center;
+    font-size:20px;
+    margin-bottom:15px;
+    color:#1e293b;
+}
+
+.activity-list{
+    list-style:none;
+}
+
+.activity-list li{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:12px 0;
+    border-bottom:1px solid #ececec;
+    font-size:15px;
+    color:#475569;
+}
+
+.activity-list li:last-child{
+    border-bottom:none;
+}
+
+.activity-dot{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#2563eb;
+}
+
+/* ================= Performance ================= */
+
+.progress-box{
+    background:#fff;
+    border-radius:16px;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+}
+
+.progress-box h2{
+    font-size:20px;
+    margin-bottom:18px;
+    color:#1e293b;
+}
+
+.progress-circle{
+    width:160px;
+    height:160px;
+    margin:auto;
+    border-radius:50%;
+    background:linear-gradient(135deg,#2563eb,#5ea4ff);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.progress-circle svg{
+    font-size:32px;
+    margin-bottom:8px;
+}
+
+.progress-circle h1{
+    font-size:34px;
+}
+
+.progress-box p{
+    margin-top:18px;
+    font-size:15px;
+    font-weight:600;
+    color:#475569;
+}

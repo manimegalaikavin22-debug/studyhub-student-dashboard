@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Manimegalai",
+    "rollNo": "23CS001",
+    "attendance": 95,
+    "status": "Excellent"
+  },
+  {
+    "id": 2,
+    "name": "Sharu",
+    "rollNo": "23CS002",
+    "attendance": 92,
+    "status": "Excellent"
+  },
+  {
+    "id": 3,
+    "name": "Arun",
+    "rollNo": "23CS003",
+    "attendance": 88,
+    "status": "Good"
+  },
+  {
+    "id": 4,
+    "name": "Divya",
+    "rollNo": "23CS004",
+    "attendance": 91,
+    "status": "Excellent"
+  },
+  {
+    "id": 5,
+    "name": "Kavin",
+    "rollNo": "23CS005",
+    "attendance": 85,
+    "status": "Good"
+  },
+  {
+    "id": 6,
+    "name": "Keerthana",
+    "rollNo": "23CS006",
+    "attendance": 96,
+    "status": "Excellent"
+  },
+  {
+    "id": 7,
+    "name": "Praveen",
+    "rollNo": "23CS007",
+    "attendance": 90,
+    "status": "Good"
+  },
+  {
+    "id": 8,
+    "name": "Sneha",
+    "rollNo": "23CS008",
+    "attendance": 97,
+    "status": "Excellent"
+  },
+  {
+    "id": 9,
+    "name": "Vignesh",
+    "rollNo": "23CS009",
+    "attendance": 86,
+    "status": "Good"
+  },
+  {
+    "id": 10,
+    "name": "Priya",
+    "rollNo": "23CS010",
+    "attendance": 94,
+    "status": "Excellent"
+  },
+  {
+    "id": 11,
+    "name": "Hari",
+    "rollNo": "23CS011",
+    "attendance": 89,
+    "status": "Good"
+  },
+  {
+    "id": 12,
+    "name": "Anitha",
+    "rollNo": "23CS012",
+    "attendance": 91,
+    "status": "Excellent"
+  },
+  {
+    "id": 13,
+    "name": "Rahul",
+    "rollNo": "23CS013",
+    "attendance": 84,
+    "status": "Good"
+  },
+  {
+    "id": 14,
+    "name": "Lavanya",
+    "rollNo": "23CS014",
+    "attendance": 98,
+    "status": "Excellent"
+  },
+  {
+    "id": 15,
+    "name": "Ajay",
+    "rollNo": "23CS015",
+    "attendance": 80,
+    "status": "Good"
+  }
+]

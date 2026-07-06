@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "course": "Data Structures",
+    "faculty": "Dr. Kumar",
+    "credits": 4,
+    "semester": 5,
+    "duration": "16 Weeks",
+    "progress": 80,
+    "status": "Ongoing"
+  },
+  {
+    "id": 2,
+    "course": "Operating Systems",
+    "faculty": "Dr. Priya",
+    "credits": 4,
+    "semester": 5,
+    "duration": "16 Weeks",
+    "progress": 72,
+    "status": "Ongoing"
+  },
+  {
+    "id": 3,
+    "course": "Computer Networks",
+    "faculty": "Mr. Arun",
+    "credits": 3,
+    "semester": 5,
+    "duration": "16 Weeks",
+    "progress": 65,
+    "status": "Ongoing"
+  },
+  {
+    "id": 4,
+    "course": "Database Management",
+    "faculty": "Mrs. Divya",
+    "credits": 4,
+    "semester": 5,
+    "duration": "16 Weeks",
+    "progress": 90,
+    "status": "Completed"
+  },
+  {
+    "id": 5,
+    "course": "Artificial Intelligence",
+    "faculty": "Dr. Naveen",
+    "credits": 4,
+    "semester": 5,
+    "duration": "16 Weeks",
+    "progress": 55,
+    "status": "Ongoing"
+  },
+  {
+    "id": 6,
+    "course": "Cloud Computing",
+    "faculty": "Mr. Saravanan",
+    "credits": 3,
+    "semester": 5,
+    "duration": "16 Weeks",
+    "progress": 70,
+    "status": "Ongoing"
+  },
+  {
+    "id": 7,
+    "course": "Machine Learning",
+    "faculty": "Dr. Keerthi",
+    "credits": 4,
+    "semester": 5,
+    "duration": "16 Weeks",
+    "progress": 60,
+    "status": "Ongoing"
+  },
+  {
+    "id": 8,
+    "course": "Software Engineering",
+    "faculty": "Mr. Vinoth",
+    "credits": 3,
+    "semester": 5,
+    "duration": "16 Weeks",
+    "progress": 85,
+    "status": "Completed"
+  }
+]

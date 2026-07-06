@@ -1,0 +1,144 @@
+/* ===========================
+   PAGE
+=========================== */
+
+.attendance-page{
+    width:100%;
+    padding:20px;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.attendance-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.attendance-heading{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.attendance-icon{
+    width:70px;
+    height:70px;
+    border-radius:18px;
+    background:linear-gradient(135deg,#2563eb,#3b82f6);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    font-size:32px;
+    box-shadow:0 12px 25px rgba(37,99,235,.25);
+}
+
+.attendance-heading h1{
+    margin:0;
+    font-size:42px;
+    font-weight:800;
+    color:#1e293b;
+    line-height:1.1;
+}
+
+.attendance-heading p{
+    margin-top:6px;
+    color:#64748b;
+    font-size:16px;
+    font-weight:500;
+}
+
+/* ===========================
+   TABLE
+=========================== */
+
+.attendance-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.attendance-table th{
+    background:#2563eb;
+    color:#fff;
+    padding:18px;
+    font-size:17px;
+    font-weight:700;
+}
+
+.attendance-table td{
+    padding:18px;
+    text-align:center;
+    border-bottom:1px solid #edf2f7;
+    font-size:15px;
+    color:#374151;
+}
+
+.attendance-table tr:hover{
+    background:#f8fafc;
+    transition:.3s;
+}
+
+/* ===========================
+   STATUS
+=========================== */
+
+.excellent{
+    background:#dcfce7;
+    color:#15803d;
+    padding:8px 18px;
+    border-radius:25px;
+    font-weight:700;
+}
+
+.good{
+    background:#dbeafe;
+    color:#2563eb;
+    padding:8px 18px;
+    border-radius:25px;
+    font-weight:700;
+}
+
+.poor{
+    background:#fee2e2;
+    color:#dc2626;
+    padding:8px 18px;
+    border-radius:25px;
+    font-weight:700;
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+    .attendance-header{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:15px;
+    }
+
+    .attendance-heading{
+        flex-direction:column;
+        text-align:center;
+        width:100%;
+    }
+
+    .attendance-heading h1{
+        font-size:30px;
+    }
+
+    .attendance-table{
+        display:block;
+        overflow-x:auto;
+    }
+
+}
